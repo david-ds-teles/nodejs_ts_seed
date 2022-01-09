@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+    "ignore": [
+        "*.test.js",
+        "fixtures/*",
+        "logs/*"
+    ],
+    "env": {
+        "ENV": "dev",
+        "PORT": 8080
+    }
+}

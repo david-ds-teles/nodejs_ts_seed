@@ -1,0 +1,14 @@
+singleQuote: true
+trailingComma: 'all'
+printWidth: 200
+useTabs: true
+tabWidth: 2
+semi: true
+overrides:
+  - files: '*.test.js'
+    options:
+      semi: true
+  - files:
+      - '*.html'
+    options:
+      tabWidth: 2

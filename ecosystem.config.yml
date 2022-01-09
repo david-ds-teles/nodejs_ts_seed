@@ -1,0 +1,8 @@
+apps:
+  - name: 'seed'
+    script: './dist/app.js'
+    out_file: './logs/seed.log'
+    watch: false
+    env_prd:
+      ENV: 'prd'
+      PORT: 5000
