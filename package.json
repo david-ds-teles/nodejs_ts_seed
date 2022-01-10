@@ -24,15 +24,6 @@
 		"prettier": "prettier --write 'src/**/*.ts'",
 		"prepare": "husky install"
 	},
-	"lint-staged": {
-		"**/*": "prettier --write --ignore-unknown"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "npm prettier",
-			"pre-push": "npm lint"
-		}
-	},
 	"dependencies": {
 		"express": "^4.17.2",
 		"pm2": "^5.1.2"
