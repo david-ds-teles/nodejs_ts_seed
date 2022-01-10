@@ -1,6 +1,8 @@
 {
 	"src/*.ts": [
-		"npm run lint",
-		"npm run prettier"
+		"prettier --write --ignore-unknown"
+	],
+	"__tests__/*": [
+		"prettier --write --ignore-unknown"
 	]
 }
