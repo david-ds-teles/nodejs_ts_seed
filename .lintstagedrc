@@ -1,7 +1,5 @@
 {
-	"**/*": [
-		"lint",
-		"prettier --write --ignore-unknown",
-		"test"
+	"src/*.ts": [
+		"npm run prettier"
 	]
 }

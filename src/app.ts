@@ -1,5 +1,4 @@
 import express, { Request, Response } from 'express';
-// import { core.Express, Request, Response } from 'express';
 
 const app = express();
 const PORT = process.env.PORT;
@@ -7,7 +6,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 app.use('/', (req: Request, rsp: Response) => {
-	rsp.send("hello from NodeJS Seed Project");
+	rsp.send('hello from NodeJS Seed Project');
 });
 
 app.listen(PORT, () => {
