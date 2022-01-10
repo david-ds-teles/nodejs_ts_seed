@@ -13,7 +13,6 @@
 	"main": "app.ts",
 	"scripts": {
 		"build": "tslint 'src/**/*.ts' && tsc --alwaysStrict",
-		"cli": "tsc --alwaysStrict && node ./dist/app.js",
 		"prd": "pm2 start ecosystem.config.yml --env prd",
 		"stop": "pm2 stop ecosystem.config.yml",
 		"restart": "pm2 restart ecosystem.config.yml",
@@ -35,7 +34,6 @@
 		"@types/express": "^4.17.13",
 		"@types/jest": "^27.4.0",
 		"@types/node": "^17.0.8",
-		"husky": "^7.0.4",
 		"jest": "^27.4.7",
 		"lint-staged": "^12.1.7",
 		"nodemon": "^2.0.15",

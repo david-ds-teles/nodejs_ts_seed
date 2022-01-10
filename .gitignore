@@ -34,6 +34,7 @@ speed-measure-plugin.json
 # misc
 npm-debug.log
 /typings
+package-lock.json
 
 # System Files
 .DS_Store
