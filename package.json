@@ -21,6 +21,7 @@
 		"test": "jest",
 		"lint": "tslint 'src/**/*.ts'",
 		"lint-staged": "lint-staged",
+		"prettier": "prettier --write */** --ignore-unknown",
 		"prepare": "husky install"
 	},
 	"dependencies": {
