@@ -26,14 +26,16 @@
 	},
 	"dependencies": {
 		"express": "^4.17.2",
+		"i18n": "^0.13.4",
 		"pm2": "^5.1.2"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.13",
-		"@types/node": "^17.0.8",
+		"@types/i18n": "^0.13.2",
 		"@types/jest": "~27.4.0",
-		"jest": "~27.4.7",
+		"@types/node": "^17.0.8",
 		"husky": "^7.0.4",
+		"jest": "~27.4.7",
 		"lint-staged": "^12.1.7",
 		"nodemon": "^2.0.15",
 		"prettier": "^2.5.1",

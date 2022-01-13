@@ -1,0 +1,8 @@
+{
+	"hello": "whats up",
+	"messages": {
+		"one": "you have %s messages",
+		"other": "you have %s messages"
+	},
+	"hello {{name}}": "hello {{name}}"
+}

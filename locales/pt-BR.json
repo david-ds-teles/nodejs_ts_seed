@@ -1,0 +1,8 @@
+{
+	"hello": "olá",
+	"messages": {
+		"one": "você tem %s mensagem",
+		"other": "você tem %s mensagens"
+	},
+	"hello {{name}}": "olá {{name}}"
+}
