@@ -15,5 +15,3 @@ i18n.configure({
 });
 
 i18n.setLocale('en');
-
-// console.log(i18n.__n('you have %s messages', 3));
