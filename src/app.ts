@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(i18n.init);
 
-//endpoints
+// endpoints
 app.get('/', (req: Request, rsp: Response) => {
 	rsp.send(rsp.__('hello'));
 });
